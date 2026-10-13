@@ -1,0 +1,177 @@
+{
+  "summary": {
+    "cases": 5,
+    "average_total_gap_percent_vs_milp": 25.558599137739655,
+    "maximum_total_gap_percent_vs_milp": 51.79778551158516,
+    "minimum_total_gap_percent_vs_milp": 9.332919710415862,
+    "average_min_satisfaction_gap": 0.1818378401664848
+  },
+  "rows": [
+    {
+      "case": "20n3r",
+      "seed": 20260901,
+      "nodes": 20,
+      "quantum_links": 57,
+      "requests": 3,
+      "candidate_paths": 3,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 4,
+      "request_demands": [
+        71.0,
+        93.0,
+        58.0
+      ],
+      "total_demand": 222.0,
+      "ours_total_edr": 187.39734623685516,
+      "ours_min_satisfaction": 0.6582846489421358,
+      "ours_runtime_seconds": 0.028856599936261773,
+      "milp_total_edr": 206.92953077948897,
+      "milp_min_satisfaction": 0.8379519440492676,
+      "milp_runtime_seconds": 3.2402367999311537,
+      "milp_gurobi_runtime_seconds": 1.1580002307891846,
+      "total_gap_percent_vs_milp": 9.43905128913087,
+      "min_satisfaction_gap": 0.17966729510713186,
+      "milp_candidate_counts": {
+        "0": 4760,
+        "1": 270,
+        "2": 162
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    },
+    {
+      "case": "20n4r",
+      "seed": 20260903,
+      "nodes": 20,
+      "quantum_links": 43,
+      "requests": 4,
+      "candidate_paths": 4,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 4,
+      "request_demands": [
+        61.0,
+        54.0,
+        58.0,
+        69.0
+      ],
+      "total_demand": 242.0,
+      "ours_total_edr": 105.84285154410945,
+      "ours_min_satisfaction": 0.25714090980440796,
+      "ours_runtime_seconds": 0.023681199993006885,
+      "milp_total_edr": 219.58088993929573,
+      "milp_min_satisfaction": 0.854372354796464,
+      "milp_runtime_seconds": 2.276036800001748,
+      "milp_gurobi_runtime_seconds": 0.41700005531311035,
+      "total_gap_percent_vs_milp": 51.79778551158516,
+      "min_satisfaction_gap": 0.597231444992056,
+      "milp_candidate_counts": {
+        "0": 1485,
+        "1": 945,
+        "2": 314,
+        "3": 258
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    },
+    {
+      "case": "25n3r",
+      "seed": 20260903,
+      "nodes": 25,
+      "quantum_links": 74,
+      "requests": 3,
+      "candidate_paths": 3,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 4,
+      "request_demands": [
+        77.0,
+        62.0,
+        77.0
+      ],
+      "total_demand": 216.0,
+      "ours_total_edr": 103.36214671938485,
+      "ours_min_satisfaction": 0.17118277090509648,
+      "ours_runtime_seconds": 0.009554199990816414,
+      "milp_total_edr": 150.32711818961513,
+      "milp_min_satisfaction": 0.2808813367371399,
+      "milp_runtime_seconds": 1.2046122000319883,
+      "milp_gurobi_runtime_seconds": 0.5350000858306885,
+      "total_gap_percent_vs_milp": 31.24184913263022,
+      "min_satisfaction_gap": 0.1096985658320434,
+      "milp_candidate_counts": {
+        "0": 2065,
+        "1": 314,
+        "2": 162
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    },
+    {
+      "case": "25n4r",
+      "seed": 20260905,
+      "nodes": 25,
+      "quantum_links": 71,
+      "requests": 4,
+      "candidate_paths": 4,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 4,
+      "request_demands": [
+        50.0,
+        79.0,
+        90.0,
+        83.0
+      ],
+      "total_demand": 302.0,
+      "ours_total_edr": 219.56224737204462,
+      "ours_min_satisfaction": 0.6559744910497181,
+      "ours_runtime_seconds": 0.027006400050595403,
+      "milp_total_edr": 242.1631386725795,
+      "milp_min_satisfaction": 0.682740335142933,
+      "milp_runtime_seconds": 3.8484101000940427,
+      "milp_gurobi_runtime_seconds": 0.7930002212524414,
+      "total_gap_percent_vs_milp": 9.332919710415862,
+      "min_satisfaction_gap": 0.02676584409321492,
+      "milp_candidate_counts": {
+        "0": 2065,
+        "1": 1145,
+        "2": 192,
+        "3": 108
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    },
+    {
+      "case": "30n4r",
+      "seed": 20260905,
+      "nodes": 30,
+      "quantum_links": 54,
+      "requests": 4,
+      "candidate_paths": 4,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 4,
+      "request_demands": [
+        81.0,
+        53.0,
+        90.0,
+        75.0
+      ],
+      "total_demand": 299.0,
+      "ours_total_edr": 168.04510416183865,
+      "ours_min_satisfaction": 0.25952607329250876,
+      "ours_runtime_seconds": 0.031097800005227327,
+      "milp_total_edr": 227.03088353571843,
+      "milp_min_satisfaction": 0.2553521241004866,
+      "milp_runtime_seconds": 10.542798199923709,
+      "milp_gurobi_runtime_seconds": 3.003000020980835,
+      "total_gap_percent_vs_milp": 25.98139004493617,
+      "min_satisfaction_gap": -0.004173949192022186,
+      "milp_candidate_counts": {
+        "0": 1465,
+        "1": 1485,
+        "2": 368,
+        "3": 234
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿node_count,seed,reason
+50,20260896,generated 20 of 40 requests after 40000 attempts; relax hop or K-path constraints
+100,20260876,generated 1 of 40 requests after 40000 attempts; relax hop or K-path constraints
+100,20260896,generated 3 of 40 requests after 40000 attempts; relax hop or K-path constraints
+250,20260871,Failed to generate a connected topology after 100 attempts.
+300,20260827,Failed to generate a connected topology after 100 attempts.
+300,20260837,Failed to generate a connected topology after 100 attempts.
+500,20260824,Failed to generate a connected topology after 100 attempts.

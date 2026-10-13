@@ -1,0 +1,5 @@
+Cython==0.29.28
+numpy==1.22.3
+pandas==1.4.2
+pytest==7.1.1
+twine==4.0.0

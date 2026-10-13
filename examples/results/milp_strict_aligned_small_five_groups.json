@@ -1,0 +1,161 @@
+{
+  "summary": {
+    "groups": 5,
+    "average_total_gap_percent_vs_milp": 26.356147123270084,
+    "maximum_total_gap_percent_vs_milp": 41.774899354044436,
+    "minimum_total_gap_percent_vs_milp": 12.133484791542704,
+    "average_min_satisfaction_gap": 0.25037074057466435
+  },
+  "rows": [
+    {
+      "group": 1,
+      "seed": 20260825,
+      "nodes": 10,
+      "quantum_links": 17,
+      "requests": 2,
+      "candidate_paths": 2,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 3,
+      "request_demands": [
+        53.0,
+        69.0
+      ],
+      "total_demand": 122.0,
+      "ours_total_edr": 53.843187835113056,
+      "ours_min_satisfaction": 0.31414533450403836,
+      "ours_runtime_seconds": 0.006741899996995926,
+      "milp_total_edr": 87.42060763411752,
+      "milp_min_satisfaction": 0.5696509472929491,
+      "milp_runtime_seconds": 0.32114479993470013,
+      "milp_gurobi_runtime_seconds": 0.016000032424926758,
+      "total_gap_percent_vs_milp": 38.40904416900924,
+      "min_satisfaction_gap": 0.2555056127889107,
+      "milp_candidate_counts": {
+        "0": 380,
+        "1": 318
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    },
+    {
+      "group": 2,
+      "seed": 20260826,
+      "nodes": 10,
+      "quantum_links": 15,
+      "requests": 2,
+      "candidate_paths": 2,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 3,
+      "request_demands": [
+        67.0,
+        55.0
+      ],
+      "total_demand": 122.0,
+      "ours_total_edr": 98.0827903985305,
+      "ours_min_satisfaction": 0.6430267223661268,
+      "ours_runtime_seconds": 0.004523699986748397,
+      "milp_total_edr": 116.44990608959353,
+      "milp_min_satisfaction": 0.9171627774566199,
+      "milp_runtime_seconds": 0.15367719996720552,
+      "milp_gurobi_runtime_seconds": 0.03399991989135742,
+      "total_gap_percent_vs_milp": 15.772546589201918,
+      "min_satisfaction_gap": 0.2741360550904931,
+      "milp_candidate_counts": {
+        "0": 306,
+        "1": 380
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    },
+    {
+      "group": 3,
+      "seed": 20260827,
+      "nodes": 10,
+      "quantum_links": 13,
+      "requests": 2,
+      "candidate_paths": 2,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 3,
+      "request_demands": [
+        66.0,
+        54.0
+      ],
+      "total_demand": 120.0,
+      "ours_total_edr": 100.55331031700264,
+      "ours_min_satisfaction": 0.7053531866212521,
+      "ours_runtime_seconds": 0.008878200082108378,
+      "milp_total_edr": 114.43871431391901,
+      "milp_min_satisfaction": 0.9157380956654468,
+      "milp_runtime_seconds": 0.12689610000234097,
+      "milp_gurobi_runtime_seconds": 0.0280001163482666,
+      "total_gap_percent_vs_milp": 12.133484791542704,
+      "min_satisfaction_gap": 0.2103849090441947,
+      "milp_candidate_counts": {
+        "0": 234,
+        "1": 380
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    },
+    {
+      "group": 4,
+      "seed": 20260828,
+      "nodes": 10,
+      "quantum_links": 22,
+      "requests": 2,
+      "candidate_paths": 2,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 3,
+      "request_demands": [
+        49.0,
+        65.0
+      ],
+      "total_demand": 114.0,
+      "ours_total_edr": 53.88438161729013,
+      "ours_min_satisfaction": 0.4144952432099241,
+      "ours_runtime_seconds": 0.00401799997780472,
+      "milp_total_edr": 92.54493512160731,
+      "milp_min_satisfaction": 0.669922078822102,
+      "milp_runtime_seconds": 0.3270293000387028,
+      "milp_gurobi_runtime_seconds": 0.009999990463256836,
+      "total_gap_percent_vs_milp": 41.774899354044436,
+      "min_satisfaction_gap": 0.2554268356121779,
+      "milp_candidate_counts": {
+        "0": 380,
+        "1": 258
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    },
+    {
+      "group": 5,
+      "seed": 20260829,
+      "nodes": 10,
+      "quantum_links": 16,
+      "requests": 2,
+      "candidate_paths": 2,
+      "minimum_path_hops": 3,
+      "maximum_path_hops": 3,
+      "request_demands": [
+        69.0,
+        61.0
+      ],
+      "total_demand": 130.0,
+      "ours_total_edr": 88.88967416719731,
+      "ours_min_satisfaction": 0.5477464165873884,
+      "ours_runtime_seconds": 0.005508199916221201,
+      "milp_total_edr": 116.48612277782044,
+      "milp_min_satisfaction": 0.804146706924934,
+      "milp_runtime_seconds": 0.2918833999428898,
+      "milp_gurobi_runtime_seconds": 0.01900005340576172,
+      "total_gap_percent_vs_milp": 23.690760712552134,
+      "min_satisfaction_gap": 0.2564002903375455,
+      "milp_candidate_counts": {
+        "0": 318,
+        "1": 380
+      },
+      "stage_one_status": 2,
+      "stage_two_status": 2
+    }
+  ]
+}
